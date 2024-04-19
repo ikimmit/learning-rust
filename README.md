@@ -6,7 +6,7 @@ A guide to learning Rust
 
 ### Blessed.rs
 
-[Blessed.rs](https://blessed.rs/crates)
+https://blessed.rs/crates
 
 > An unofficial guide to the Rust ecosystem.
 
@@ -16,7 +16,7 @@ Helps you find crates to complement the minimal approach Rust has to the "batter
 
 ### Lib.rs
 
-(https://lib.rs/)
+https://lib.rs/
 
 > Index of Rust libraries and applications. Lightweight, opinionated, curated, unofficial alternative to crates.io.
 
