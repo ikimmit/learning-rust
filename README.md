@@ -52,7 +52,7 @@ https://doc.rust-lang.org/std/future/trait.Future.html
 
 #### Generic Associated Types
 
-(Rust Blog - Generic associated types to be stable in Rust 1.65)[https://blog.rust-lang.org/2022/10/28/gats-stabilization.html]
+[ Rust Blog - Generic associated types to be stable in Rust 1.65 ](https://blog.rust-lang.org/2022/10/28/gats-stabilization.html)
 
 #### Rust libcore
 
