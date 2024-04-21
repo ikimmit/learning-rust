@@ -132,6 +132,11 @@ Experimental but consider me curious.
 
 https://github.com/slint-ui/slint
 
+#### Flutter
+
+Flutter-Rust Bridge:
+https://github.com/fzyzcjy/flutter_rust_bridge/
+
 #### Tauri
 
 Create apps using an embedded web view, similar in principle to Electron.
