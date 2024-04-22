@@ -50,6 +50,18 @@ https://github.com/rayon-rs/rayon
 
 ## Corners and Concepts
 
+### Concurrent / Async / Network
+
+#### Tokio
+
+> Tokio is an asynchronous runtime for the Rust programming language. It provides the building blocks needed for writing network applications.
+
+https://tokio.rs/
+
+#### Crossbeam crate
+
+https://github.com/crossbeam-rs/crossbeam
+
 ### Functional programming
 
 #### Batteries-included `iter` module
