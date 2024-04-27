@@ -44,11 +44,46 @@ With own sorting algorithm, and a search function.
 
 ## Probably useful crates
 
+### Derive More
+
+https://github.com/JelteF/derive_more
+
+Avoid boilerplate code. It does this by allowing you to derive lots of commonly used traits for both structs and enums.
+
 ### Rayon (data-parallelism library)
 
 https://github.com/rayon-rs/rayon
 
 ## Corners and Concepts
+
+### Ownership
+
+#### Copy trait
+
+Transforms a value from "move semantics" onto "copy semantics". 
+
+https://doc.rust-lang.org/std/marker/trait.Copy.html
+
+> Types whose values can be duplicated simply by copying bits.
+
+```
+struct Foo;
+let x = Foo;
+let y = x;
+// x is now unusable
+```
+
+However:
+
+```
+#[derive(Copy, Clone)]
+struct Foo;
+let x = Foo;
+let y = x;
+// x can still be used
+```
+
+Note that `Clone` is necessary, as it is a "[supertrait](https://doc.rust-lang.org/rust-by-example/trait/supertraits.html)" of `Copy`.
 
 ### Concurrent / Async / Network
 
@@ -193,6 +228,22 @@ https://relm4.org/book/stable/
 
 Not very impressed by the examples but remain open-minded.
 
+## Parsers
+
+#### Nom
+
+https://github.com/rust-bakery/nom
+
+#### Combine
+
+https://github.com/Marwes/combine
+
+(inspired by Haskell's Parsec)
+
+#### Pom
+
+https://github.com/J-F-Liu/pom
+
 ## Rust Projects to Follow
 
 #### Helix Editor
@@ -206,3 +257,7 @@ https://github.com/helix-editor/helix
 Monitor your Internet traffic. Gui implemented in Iced.
 
 https://github.com/GyulyVGC/sniffnet
+
+
+
+
