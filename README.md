@@ -1,12 +1,19 @@
 # Learning Rust
 
-A guide to learning Rust
+> In the crowded landscape of modern programming languages, Rust is different. 
+> Rust offers the speed of a compiled language, the efficiency of a non-garbage-collected language, 
+> and the type safety of a functional language — as well as a unique solution to memory safety problems.
+(David Drysdale, "Effective Rust")
 
 ## Books
 
 #### The Rust Programming Language
 
 https://doc.rust-lang.org/book/
+
+#### Effective Rust
+
+https://www.lurklurk.org/effective-rust/
 
 #### Rust by Example
 
@@ -55,6 +62,10 @@ Avoid boilerplate code. It does this by allowing you to derive lots of commonly 
 https://github.com/rayon-rs/rayon
 
 ## Corners and Concepts
+
+### Unicode
+
+[Intro to unicode and character sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 ### Ownership
 
