@@ -23,6 +23,16 @@ https://doc.rust-lang.org/rust-by-example/
 
 https://rust-unofficial.github.io/patterns/
 
+#### Data with Rust
+
+https://datawithrust.com/
+
+#### Rust Atomics and Locks
+
+https://marabos.nl/atomics/
+
+(very good)
+
 #### The Embedded Rust Book
 
 An introductory book about using the Rust Programming Language on "Bare Metal" embedded systems, such as Microcontrollers.
