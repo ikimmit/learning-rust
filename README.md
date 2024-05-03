@@ -5,6 +5,10 @@
 > and the type safety of a functional language — as well as a unique solution to memory safety problems.
 (David Drysdale, "Effective Rust")
 
+## Path planing
+
+[<img src="images/learning-path-1.png" />](images/learning-path-1.png)
+
 ## Books
 
 #### The Rust Programming Language
