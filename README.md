@@ -132,6 +132,16 @@ Note that `Clone` is necessary, as it is a "[supertrait](https://doc.rust-lang.o
 
 https://tokio.rs/
 
+#### Smol
+
+> A small and fast async runtime.
+
+> A lightweight runtime, intended to compete with Tokio 
+
+Check the examples folder for some cool scripts and ideas. Good for exploring other crates too.
+
+https://github.com/smol-rs/smol
+
 #### Crossbeam crate
 
 https://github.com/crossbeam-rs/crossbeam
@@ -276,6 +286,14 @@ Not very impressed by the examples but remain open-minded.
 https://www.arewelearningyet.com/
 
 ## Parsers
+
+### HTML
+
+#### Scraper
+
+https://github.com/causal-agent/scraper
+
+### Generic
 
 #### Nom
 
