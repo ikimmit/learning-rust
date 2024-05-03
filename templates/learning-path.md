@@ -25,9 +25,16 @@ click Rustaceans "https://nostarch.com/rust-rustaceans" "Open"
 Rustaceans --> C(Alternatives)
 
 C --> EffectiveRust[
- <img src="https://raw.githubusercontent.com/ikimmit/learning-rust/master/images/OreillyEffectiveRust.jpeg" /> <small>Effective Rust</small>
+<img src="https://raw.githubusercontent.com/ikimmit/learning-rust/master/images/OreillyEffectiveRust.jpeg" /> <small>Effective Rust</small>
 <div style='width: 200px'>fa:fa-book &rarr; fa:fa-credit-card</div>]
-click EffectiveRust "ttps://www.oreilly.com/library/view/effective-rust/9781098151393/" "Open"
+click EffectiveRust "https://www.oreilly.com/library/view/effective-rust/9781098151393/" "Open"
+
+Rustaceans --> D(Side Quests)
+
+D --> RustAtomics[
+<img src="https://raw.githubusercontent.com/ikimmit/learning-rust/master/images/OreillyRustAtomics.jpeg" /> <small>Rust Atomics and Locks</small>
+<div style='width: 200px'>fa:fa-book &rarr; fa:fa-credit-card fa:fa-universal-access</div>]
+click RustAtomics "https://marabos.nl/atomics/" "Open"
 
 classDef book witdh:200px
 ```
