@@ -35,7 +35,7 @@ click EffectiveRust "https://www.oreilly.com/library/view/effective-rust/9781098
 Rustaceans --> D(Get things done)
 
 D --> CodeLikePro[
-<img src="https://raw.githubusercontent.com/ikimmit/learning-rust/master/images/ManningCodeLikePro.jpeg" /> <small>Effective Rust</small>
+<img src="https://raw.githubusercontent.com/ikimmit/learning-rust/master/images/ManningCodeLikePro.jpeg" /> <small>Code Like a Pro in Rust</small>
 <div style='width: 200px'>fa:fa-book fa:fa-thumbs-up &rarr; fa:fa-credit-card</div>]
 click CodeLikePro "https://www.manning.com/books/code-like-a-pro-in-rust" "Open"
 
