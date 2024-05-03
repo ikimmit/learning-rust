@@ -1,6 +1,6 @@
 <svg aria-roledescription="flowchart-v2"
   role="graphics-document document"
-  viewBox="-8 -8 496 168"
+  viewBox="-8 -8 496 418.265625"
   style="max-width: 496px; background-color: white;"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@
           style="fill:none;"
           class="edge-thickness-normal edge-pattern-solid flowchart-link LS-A LE-OreillyPR"
           id="L-A-OreillyPR-0"
-          d="M293.15868263473055,33.5L306.38223552894215,37.666666666666664C319.6057884231537,41.833333333333336,346.05289421157687,50.166666666666664,359.27644710578846,57.61666666666667C372.5,65.06666666666666,372.5,71.63333333333334,372.5,74.91666666666667L372.5,78.2"/>
+          d="M293.15868263473055,33.5L306.38223552894215,37.666666666666664C319.6057884231537,41.833333333333336,346.05289421157687,50.166666666666664,359.27644710578846,57.93893229166667C372.5,65.71119791666666,372.5,72.92239583333334,372.5,76.52799479166667L372.5,80.13359375"/>
       </g>
       <g class="edgeLabels">
         <g class="edgeLabel">
@@ -157,32 +157,32 @@
             </foreignObject>
           </g>
         </g>
-        <a transform="translate(107.5, 117.75)"
+        <a transform="translate(107.5, 242.8828125)"
           data-id="TheRPL"
           data-node="true"
           xlink:href="https://doc.rust-lang.org/book/">
           <g title="Go to link"
             id="flowchart-TheRPL-2"
             class="node default clickable flowchart-label">
-            <rect height="68.5"
+            <rect height="318.765625"
               width="215"
-              y="-34.25"
+              y="-159.3828125"
               x="-107.5"
               ry="0"
               rx="0"
               style=""
               class="basic label-container"/>
-            <g transform="translate(-100, -26.75)"
+            <g transform="translate(-100, -151.8828125)"
               style=""
               class="label">
               <rect/>
-              <foreignObject height="53.5"
+              <foreignObject height="303.765625"
                 width="200">
                 <div style="display: inline-block; white-space: nowrap;"
                   xmlns="http://www.w3.org/1999/xhtml">
                   <span class="nodeLabel">
                     <img style="display: flex; flex-direction: column; width: 100%;"
-                      src="../images/RustProgramming2ndEd_comp.png" />
+                      src="https://raw.githubusercontent.com/ikimmit/learning-rust/master/images/RustProgramming2ndEd_comp.png" />
                     <small>The Rust Programming Language</small>
                     <br />
                     <div style="width: 200px">
@@ -195,32 +195,32 @@
             </g>
           </g>
         </a>
-        <a transform="translate(372.5, 117.75)"
+        <a transform="translate(372.5, 242.8828125)"
           data-id="OreillyPR"
           data-node="true"
           xlink:href="https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/">
           <g title="Go to link"
             id="flowchart-OreillyPR-4"
             class="node default clickable flowchart-label">
-            <rect height="68.5"
+            <rect height="314.8984375"
               width="215"
-              y="-34.25"
+              y="-157.44921875"
               x="-107.5"
               ry="0"
               rx="0"
               style=""
               class="basic label-container"/>
-            <g transform="translate(-100, -26.75)"
+            <g transform="translate(-100, -149.94921875)"
               style=""
               class="label">
               <rect/>
-              <foreignObject height="53.5"
+              <foreignObject height="299.8984375"
                 width="200">
                 <div style="display: inline-block; white-space: nowrap;"
                   xmlns="http://www.w3.org/1999/xhtml">
                   <span class="nodeLabel">
                     <img style="display: flex; flex-direction: column; width: 100%;"
-                      src="../images/OreillyProgrammingRust2ndEd.jpeg" />
+                      src="https://raw.githubusercontent.com/ikimmit/learning-rust/master/images/OreillyProgrammingRust2ndEd.jpeg" />
                     <small>Programming Rust / 2nd ed</small>
                     <br />
                     <div style="width: 200px">
