@@ -33,6 +33,10 @@ https://marabos.nl/atomics/
 
 (very good)
 
+#### Rust and WebAssembly
+
+https://rustwasm.github.io/docs/book/
+
 #### The Embedded Rust Book
 
 An introductory book about using the Rust Programming Language on "Bare Metal" embedded systems, such as Microcontrollers.
@@ -58,6 +62,16 @@ https://lib.rs/
 > Index of Rust libraries and applications. Lightweight, opinionated, curated, unofficial alternative to crates.io.
 
 With own sorting algorithm, and a search function.
+
+## Blogs, Portals
+
+#### This week in Bevy
+
+(Bevy is a game engine also useful for visualizations.)
+
+With blog and nice youtube channel:
+
+https://thisweekinbevy.com/
 
 ## Probably useful crates
 
@@ -248,6 +262,14 @@ https://github.com/tauri-apps/wry
 https://relm4.org/book/stable/
 
 Not very impressed by the examples but remain open-minded.
+
+## Machine Learning
+
+#### Are we learning yet?
+
+> A work-in-progress to catalog the state of machine learning in Rust
+
+https://www.arewelearningyet.com/
 
 ## Parsers
 
