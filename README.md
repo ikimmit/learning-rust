@@ -1,15 +1,26 @@
 # Learning Rust
 
-> In the crowded landscape of modern programming languages, Rust is different. 
-> Rust offers the speed of a compiled language, the efficiency of a non-garbage-collected language, 
+> In the crowded landscape of modern programming languages, Rust is different.
+> Rust offers the speed of a compiled language, the efficiency of a non-garbage-collected language,
 > and the type safety of a functional language — as well as a unique solution to memory safety problems.
-(David Drysdale, "Effective Rust")
+> (David Drysdale, "Effective Rust")
 
 ## Path planning
 
 [<img height="500" src="images/learning-path-1.png" />](images/learning-path-1.png)
 
 ## Books
+
+### Lists
+
+#### Most Rust Books
+
+Useful as a pool of sources to research, but list is not curated and texts appear to be editorial copies.
+Some references are also very old.
+
+https://github.com/sger/RustBooks
+
+### Some I've gathered
 
 #### The Rust Programming Language
 
@@ -95,11 +106,25 @@ https://github.com/rayon-rs/rayon
 
 [Intro to unicode and character sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
-### Ownership
+### Types and Ownership
+
+#### Opaque types
+
+A very human explanation:
+
+https://stackoverflow.com/questions/64693182/rust-expected-type-found-opaque-type
+
+Interesting:
+
+https://www.reddit.com/r/rust/comments/11kyls1/just_realize_opaques_types_have_real_compiletime/
+
+And then this:
+
+https://rustc-dev-guide.rust-lang.org/opaque-types-type-alias-impl-trait.html
 
 #### Copy trait
 
-Transforms a value from "move semantics" onto "copy semantics". 
+Transforms a value from "move semantics" onto "copy semantics".
 
 https://doc.rust-lang.org/std/marker/trait.Copy.html
 
@@ -124,6 +149,14 @@ let y = x;
 
 Note that `Clone` is necessary, as it is a "[supertrait](https://doc.rust-lang.org/rust-by-example/trait/supertraits.html)" of `Copy`.
 
+#### Chalk
+
+The repo:
+https://github.com/rust-lang/chalk?tab=readme-ov-file
+
+The Book:
+https://rust-lang.github.io/chalk/book/what_is_chalk.html
+
 ### Concurrent / Async / Network
 
 #### Tokio
@@ -136,7 +169,7 @@ https://tokio.rs/
 
 > A small and fast async runtime.
 
-> A lightweight runtime, intended to compete with Tokio 
+> A lightweight runtime, intended to compete with Tokio
 
 Check the examples folder for some cool scripts and ideas. Good for exploring other crates too.
 
@@ -209,6 +242,14 @@ https://areweguiyet.com/
 Pointers for building games with Rust:
 
 https://arewegameyet.rs/
+
+#### Floem
+
+> A native Rust UI library with fine-grained reactivity
+
+Made by/for Lapce editor team. Cross-platform. The Lapce UI is a git awkward, especially in terms of detailed UI components, not sure bow much that depends on this library.
+
+https://github.com/lapce/floem
 
 #### Iced
 
@@ -313,16 +354,35 @@ https://github.com/J-F-Liu/pom
 
 #### Helix Editor
 
-Awesome editor that could hopefully one day replace NVim. Would love to contribute.
+Awesome TUI-only editor that could hopefully one day replace NVim. Would love to contribute.
 
 https://github.com/helix-editor/helix
+
+#### Zed Editor
+
+> a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
+
+VSCode clone with very smooth UX. Interesting collab features that have not tried yet. AI support, never tried. Does not appear to be very configurable/extensible.
+Has minimal Vim mode.
+
+https://github.com/zed-industries/zed
+
+#### Lapce
+
+Cross-platform code editor similar to Zed/VSCode, using interesting Rust deps, UI/UX less smooth than Zed or Helix.
+Has (very) minimal Vim mode.
+
+https://lapce.dev/
+
+#### Neovide
+
+GUI wrapper for Neovim. Use it every day. Love the UX of the animated cursor, smooth scrolling, full modifier keys configurability.
+That said, it is rough around the edges: terrible Mac OS integration (as of 2024) and freezes often.
+
+https://github.com/neovide/neovide
 
 #### Siffnet
 
 Monitor your Internet traffic. Gui implemented in Iced.
 
 https://github.com/GyulyVGC/sniffnet
-
-
-
-
