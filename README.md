@@ -243,6 +243,18 @@ Pointers for building games with Rust:
 
 https://arewegameyet.rs/
 
+#### GPUI
+
+> A fast, productive UI framework for Rust from the creators of Zed.
+> Today, it's Zed's UI framework. Tomorrow, it's yours! We'd love your help making that happen.
+>
+> GPUI is still in active development as we work on the Zed code editor and isn't yet on crates.io.
+> You'll also need to use the latest version of stable rust and be on macOS.
+
+This one looks promising.
+
+https://www.gpui.rs/
+
 #### Floem
 
 > A native Rust UI library with fine-grained reactivity
@@ -273,6 +285,21 @@ https://github.com/slint-ui/slint
 
 Flutter-Rust Bridge:
 https://github.com/fzyzcjy/flutter_rust_bridge/
+
+#### Doxius
+
+Need to check further, very promising.
+
+https://github.com/dioxuslabs/dioxus
+
+> Cross-platform apps in three lines of code (web, desktop, mobile, server, and more)
+> Ergonomic state management combines the best of React, Solid, and Svelte
+> Extremely performant, powered by Rust's fastest wasm-framework sledgehammer
+> Integrated bundler for deploying to the web, macOS, Linux, and Windows
+
+On performance:
+
+https://dioxuslabs.com/blog/templates-diffing
 
 #### Tauri
 
@@ -367,6 +394,20 @@ Has minimal Vim mode.
 
 https://github.com/zed-industries/zed
 
+#### Spotify Player
+
+Awesome TUI audio player for Spotify. Both simple and fully featured, even cover art images on some terminals!
+
+Just perfect.
+
+https://github.com/aome510/spotify-player
+
+#### Felix
+
+TUI file navigator
+
+https://github.com/kyoheiu/felix/
+
 #### Lapce
 
 Cross-platform code editor similar to Zed/VSCode, using interesting Rust deps, UI/UX less smooth than Zed or Helix.
@@ -380,6 +421,26 @@ GUI wrapper for Neovim. Use it every day. Love the UX of the animated cursor, sm
 That said, it is rough around the edges: terrible Mac OS integration (as of 2024) and freezes often.
 
 https://github.com/neovide/neovide
+
+#### Neophyte
+
+> Neophyte is a Neovim GUI rendered with WebGPU and written in Rust
+
+Neovide alternative. Haven't tried it properly yet. Seems even more raw.
+
+https://github.com/tim-harding/neophyte
+
+#### Graphite
+
+Image editor, looks cool!
+
+https://github.com/GraphiteEditor/Graphite
+
+#### Numbat
+
+Progamming language for scientific calculations. With a legacy PureScript implementation too!
+
+https://github.com/sharkdp/numbat
 
 #### Siffnet
 
