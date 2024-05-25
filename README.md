@@ -402,6 +402,12 @@ Just perfect.
 
 https://github.com/aome510/spotify-player
 
+#### Gitui
+
+TUI for git. Nice, but need to try it and compare it to lazygit.
+
+https://github.com/extrawurst/gitui
+
 #### Felix
 
 TUI file navigator
